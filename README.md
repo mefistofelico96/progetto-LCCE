@@ -41,7 +41,9 @@ Una volta modificato il cdocie su Keil, bisogna eseguire un **_push_** per aggio
 - cliccare sui tre pallini e poi cliccare su Push per eseguire un push su master. Va bene modificare solo il master.
 
 ### GitHub
-Su GitHub le modifiche arrivano automaticamente se si lavora sul branch `main` (consigliato). Basta aggiornare la pagina per vederle.
+Su GitHub le modifiche arrivano automaticamente se si lavora sul branch `master` (consigliato). Basta aggiornare la pagina per vederle.
+
+Nota: quando si crea un progetto su Keil collegato a GitHub il branch principale viene automaticamente chiamato `master`. Cambiare nome a tale branch può causare problemi nella gestione delle richieste di pull e push.
 
 ## L'hardware
 ### Collegamento tra NUCLEO-F401RE e TEA5767
