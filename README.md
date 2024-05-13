@@ -49,20 +49,20 @@ Nota: quando si crea un progetto su Keil collegato a GitHub il branch principale
 ### Collegamento tra NUCLEO-F401RE e TEA5767
 Il modulo radio FM TEA5767 usa il bus I2C per comunicare con l'esterno. Il pinout della scheda NUCLEO-F401RE è riportata di seguito:
 
-![NUCLEO-F401RE pinout](https://github.com/mefistofelico96/progetto-LCCE/blob/master/assets/NUCLEO-F401RE_pinout.png)
+![NUCLEO-F401RE pinout](https://github.com/mefistofelico96/progetto-LCCE/blob/master/readme_assets/NUCLEO-F401RE_pinout.png)
 
 Si noti che il pin `D14` funge da SDA mentre il pin `D15` funge da SCL per il bus I2C1. Sono stati utilizzati tali pin per creare la comunicazione tra microcontrollore e modulo radio. Il collegamento va fatto collegando il pin SDA del modulo col pin SDA del microcontrollore e il pin SCL del modulo col pin SCL del microcontrollore. Il pinout del modulo radio FM TEA5767 è riportato di seguito:
 
-![TEA5767 pinout](https://github.com/mefistofelico96/progetto-LCCE/blob/master/assets/TEA5767_pinout.jpg)
+![TEA5767 pinout](https://github.com/mefistofelico96/progetto-LCCE/blob/master/readme_assets/TEA5767_pinout.jpg)
 
 Per quanto detto, il collegamento finale è riportato di seguito:
 
-![Collegamento scheda-modulo](https://github.com/mefistofelico96/progetto-LCCE/blob/master/assets/collegamento_NUCLEO-TEA5767.png)
+![Collegamento NUCLEO-TEA5767](https://github.com/mefistofelico96/progetto-LCCE/blob/master/readme_assets/collegamento_NUCLEO-TEA5767.png)
 
 ### Collegamento tra NUCLEO-F401RE e schermo LCD
 Lo schermo LCD è stato collegato secondo quanto riportato di seguito:
 
-![Collegamento scheda-LCD](https://github.com/mefistofelico96/progetto-LCCE/blob/master/assets/collegamento_NUCLEO-LCD.png)
+![Collegamento NUCLEO-LCD](https://github.com/mefistofelico96/progetto-LCCE/blob/master/readme_assets/collegamento_NUCLEO-LCD.png)
 
 ### Pulsanti
 Per controllare la frequenza attuale di ricezione sono stati utilizzati due pulsanti, uno che aumenta e un altro che riduce la frequenza corrente di un passo fisso pari a $0.25$ Hz. Tali pulsanti sono stati collegati ai pin `D7` e `D8` della scheda NUCLEO. Alla loro pressione essi riportano sui pin di lettura digitale della scheda uno `0` logico.
