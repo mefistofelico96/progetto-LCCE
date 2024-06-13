@@ -13,7 +13,7 @@ Il progetto è stato realizzato dal gruppo formato da:
 Il seguente codice va compilato su [Mbed](https://os.mbed.com/) (deprecato) o [Keil](https://studio.keil.arm.com/auth/login) (consigliato) scegliendo come Build target la scheda NUCLEO-F401RE.
 
 ### Caricamento
-Una volta completata la compilazione, il file `.bin` prodotto può essere caricato, sempre tramite l'ambiente utilizzato, sulla scheda target opportunamente collegata al PC tramite USB.
+Una volta completata la compilazione, il file `.bin` prodotto può essere caricato sulla scheda target opportunamente collegata al PC tramite USB.
 
 ### Librerie usate
 Le librerie usate sono presenti su Mbed e state importate tramite Keil. Esse sono:
