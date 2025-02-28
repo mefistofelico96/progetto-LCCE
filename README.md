@@ -1,5 +1,5 @@
 # progetto-LCCE
-Progetto finale dell'esame di Laboratorio CAD di Circuiti Elettronici (LCCE) del Corso di Laurea in Ignegneria Elettronica dell'Università degli Studi di Napoli "Federico II" nell'A.A. 2018-2019.
+Progetto finale del corso di Laboratorio CAD di Circuiti Elettronici (LCCE) del Corso di Laurea in Ignegneria Elettronica dell'Università degli Studi di Napoli "Federico II" nell'A.A. 2018-2019.
 
 ## Partecipanti
 Il progetto è stato realizzato dal gruppo formato da:
