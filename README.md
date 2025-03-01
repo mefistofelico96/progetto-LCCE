@@ -33,7 +33,7 @@ La prima cosa da fare quando si apre questo progetto su Keil è controllare se c
 - cliccare sul simbolo di Source control nella barra verticale a sinistra (il simbolo è un branch);
 - cliccare sui tre pallini e poi cliccare su Pull per eseguire una richiesta di pull dal master.
 
-Una volta modificato il cdocie su Keil, bisogna eseguire un **_push_** per aggiornare il codice anche su GitHub. Per eseguire un push:
+Una volta modificato il codice su Keil, bisogna eseguire un **_push_** per aggiornare il codice anche su GitHub. Per eseguire un push:
 - cliccare sul simbolo di Source control nella barra verticale a sinistra;
 - nella sezione sotto Message passare il mouse su Changes e cliccare sul "+" che compare accanto a Changes. In questo modo si organizzano tutte le modifiche effettuate a tutti i file del progetto
 - scrivere nella sezione Message un messaggio relativo alle modifiche effettuate;
